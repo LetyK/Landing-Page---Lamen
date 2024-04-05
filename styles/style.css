@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('testimonial.css');
+@import url('footer.css');
+*{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+}
+
+body {
+    background-color: #fff9ea;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #810b0b;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-cardapio {
+    color: #ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #810b0b;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+    background-color: #aa1111;
+}
+.btn-cardapio:hover {
+    color: #fff9ea;
+    background-color: #aa1111;
+}
+.social-media-button {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff; 
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.social-media-button a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow .3s ease;
+}
+
+.section-title {
+    font-weight: 600;
+    color: #7a0b0b;
+    font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
